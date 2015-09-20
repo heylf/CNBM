@@ -6,9 +6,9 @@ INPUT:
 ------------
 In order to run the pipeline, the following folder structure must be created:
 
-/Program
- /Input [should contain a geneToId.txt and a proteinToId.txt]
-   /Classification [should contain a file called Patients.txt and a file called Project_Regression_Matrix.txt]
+- /Program
+ - /Input [should contain a geneToId.txt and a proteinToId.txt]
+   - /Classification [should contain a file called Patients.txt and a file called Project_Regression_Matrix.txt]
    /GeneExpression [should contain the different input files (gene expression)]
    /Protein [should contain the different input files (protein expression)]
    /Patient:
