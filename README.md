@@ -32,7 +32,7 @@ In order to run the pipeline, the following folder structure must be created:
 
 RUN:
 ------
-When downloading everything from the github repository, the folder structure is already created. The folder 'Pipeline' contains the source code. The best thing is to open the project in IntelliJ. But we also provided a jar file. In order to run the program in IntelliJ, create a run configuration for 'MainClass' and define the following arguments:
+When downloading everything from the github repository, the folder structure is already created. The folder 'Pipeline' contains the source code. The best thing is to open the project in IntelliJ. But we also provided a jar file. In order to run the program in IntelliJ, create a run configuration for 'MainClass' and define the following arguments
 
 <working dir path> <threshold for genes> <threshold for proteins>
 
