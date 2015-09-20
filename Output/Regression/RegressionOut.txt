@@ -1,0 +1,15 @@
+relative error: 1.5748015748023623
+model:    y = x1 * 0.07027282513455411 + x2 * 0.05737870758239742 + 0.03510934885795744
+
+(PatienId, Cancer Stage, number of lymphe nodes, her2/cent17 ratio)
+(Patient1,(0.0,DenseVector(0.0, 1.0)))
+(Patient2,(0.0,DenseVector(0.0, 1.4)))
+(Patient3,(0.0,DenseVector(3.0, 1.0)))
+(Patient4,(1.0,DenseVector(0.0, 11.0)))
+(Patient5,(0.0,DenseVector(1.0, 1.6)))
+(Patient6,(0.0,DenseVector(0.0, 1.2)))
+(Patient7,(0.0,DenseVector(0.0, 1.4)))
+(Patient8,(0.0,DenseVector(0.0, 1.1)))
+(Patient9,(0.0,DenseVector(0.0, 1.1)))
+(Patient10,(0.0,DenseVector(0.0, 2.2)))
+(Patient11,(0.0,DenseVector(1.0, 3.2)))

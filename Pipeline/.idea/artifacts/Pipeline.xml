@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Pipeline">
+    <output-path>$PROJECT_DIR$/out/artifacts/Pipeline</output-path>
+    <root id="archive" name="Pipeline.jar">
+      <element id="module-output" name="ProjectRegression" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/flink/flink-ml/0.9-SNAPSHOT/flink-ml-0.9-20150827.164219-321.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/flink/flink-core/0.9-SNAPSHOT/flink-core-0.9-20150827.162318-523.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

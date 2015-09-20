@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.flink:flink-gelly:0.9-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-gelly/0.9-SNAPSHOT/flink-gelly-0.9-20150827.163847-413.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-gelly/0.9-SNAPSHOT/flink-gelly-0.9-20150827.163847-413-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-gelly/0.9-SNAPSHOT/flink-gelly-0.9-20150827.163847-413-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

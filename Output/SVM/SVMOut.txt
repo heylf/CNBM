@@ -1,0 +1,14 @@
+prediction error: 0.7745966692414834
+
+(PatienId, Cancer Stage, number of lymphe nodes, her2/cent17 ratio)
+(Patient1,(1.0,DenseVector(0.0, 1.0)))
+(Patient2,(1.0,DenseVector(0.0, 1.4)))
+(Patient3,(1.0,DenseVector(3.0, 1.0)))
+(Patient4,(10.0,DenseVector(0.0, 11.0)))
+(Patient5,(2.0,DenseVector(1.0, 1.6)))
+(Patient6,(1.0,DenseVector(0.0, 1.2)))
+(Patient7,(1.0,DenseVector(0.0, 1.4)))
+(Patient8,(1.0,DenseVector(0.0, 1.1)))
+(Patient9,(1.0,DenseVector(0.0, 1.1)))
+(Patient10,(2.0,DenseVector(0.0, 2.2)))
+(Patient11,(3.0,DenseVector(1.0, 3.2)))
