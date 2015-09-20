@@ -34,7 +34,7 @@ RUN:
 ------
 When downloading everything from the github repository, the folder structure is already created. The folder 'Pipeline' contains the source code. The best thing is to open the project in IntelliJ. But we also provided a jar file. In order to run the program in IntelliJ, create a run configuration for 'MainClass' and define the following arguments:
 
- # <working dir path> <threshold for genes> <threshold for proteins>
+ <working dir path> <threshold for genes> <threshold for proteins>
 
 - working dir path: path of the program folder e.g. path/Program
 - threshold for genes: threshold of the Pearson correlation for the gene expression networks
