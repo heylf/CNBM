@@ -15,20 +15,20 @@ In order to run the pipeline, the following folder structure must be created:
 			- /GeneExpression [contains one patient.txt file (same format as input files but the first two lines are deleted)]
 			- /Protein	[contains one patient.txt file (same format as input files but the first two lines are deleted)]
 	- /IntermediateFiles
-   - /GeneExpression 
-	- /Partial
-   - /Protein
-	- /Partial
-   /Regression
-   /SVM	
- /Output
-     /GeneExpression
-	/Partial
-     /Protein
-	/Partial
-     /Regression
-     /SVM
- /Pipeline [contains the IntelliJ project and a jar file of the pipeline]
+   		- /GeneExpression 
+			- /Partial
+   		- /Protein
+			- /Partial
+		- /Regression
+   		- /SVM	
+ 	- /Output
+     		- /GeneExpression
+			- /Partial
+     		- /Protein
+			- /Partial
+     		- /Regression
+     		- /SVM
+ 	- /Pipeline [contains the IntelliJ project and a jar file of the pipeline]
 
 RUN:
 ------
