@@ -22,12 +22,12 @@ In order to run the pipeline, the following folder structure must be created:
 		- /Regression
    		- /SVM	
  	- /Output
-     		- /GeneExpression
-			- /Partial
-     		- /Protein
-			- /Partial
-     		- /Regression
-     		- /SVM
+ 		- /GeneExpression
+ 			- /Partial
+ 		- /Protein
+ 			- /Partial
+ 		- /Regression
+ 		- /SVM
  	- /Pipeline [contains the IntelliJ project and a jar file of the pipeline]
 
 RUN:
