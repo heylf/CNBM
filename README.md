@@ -36,23 +36,23 @@ When downloading everything from the github repository, the folder structure is 
 
  <working dir path> <threshold for genes> <threshold for proteins>
 
-- working dir path: path of the program folder e.g. path/Program
-- threshold for genes: threshold of the Pearson correlation for the gene expression networks
-- threshold for proteins: threshold of the Pearson correlation for the protein networks
+- **working dir path:** path of the program folder e.g. path/Program
+- **threshold for genes:** threshold of the Pearson correlation for the gene expression networks
+- **threshold for proteins:** threshold of the Pearson correlation for the protein networks
 
 OUTPUT:
 ---------
 As a result the user get the following main output:
 
-- /Output/Regression/RegressionOut.txt <br />
+- **/Output/Regression/RegressionOut.txt** <br />
 [predicted cancer stages for the patients of interest from the MLR, the prediction error and the details of the model] 
-- /Output/SVM/SVMOut.txt 		     
+- **/Output/SVM/SVMOut.txt** 		     
 [predicted cancer stages for the patients of interest from the SVM and the prediction error]
-- /Output/GeneExpression/*.txt	     
+- **/Output/GeneExpression/*.txt** <br />	     
 [three biggest modules of the gene expression network based on Pearson correlation]
-- /Output/GeneExpression/Partial/*.txt
+- **/Output/GeneExpression/Partial/*.txt** <br />
 [three biggest modules of the gene expression network based on Patial correlation]
-- /Output/Protein/*.txt			
+- **/Output/Protein/*.txt** <br />		
 [three biggest modules of the protein network based on Pearson correlation]
-- /Output/Protein/Partial/*.txt			
+- **/Output/Protein/Partial/*.txt** <br />		
 [three biggest modules of the protein network based on Pearson correlation]
