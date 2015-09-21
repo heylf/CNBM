@@ -54,5 +54,5 @@ As a result the user get the following main output:
 [three biggest modules of the gene expression network based on Patial correlation]
 - **/Output/Protein/*.txt** <br />
 [three biggest modules of the protein network based on Pearson correlation]
-- **/Output/Protein/Partial/*.txt** <br />		
+- **/Output/Protein/Partial/*.txt**
 [three biggest modules of the protein network based on Pearson correlation]
