@@ -47,3 +47,25 @@ As a result the user get the following main output:
 /Output/GeneExpression/Partial/*.txt	     [three biggest modules of the gene expression network based on Patial correlation]
 /Output/Protein/*.txt			[three biggest modules of the protein network based on Pearson correlation]
 /Output/Protein/Partial/*.txt			[three biggest modules of the protein network based on Pearson correlation]
+=======
+ /Pipeline [contains the IntelliJ project and a jar file of the pipeline]
+
+RUN:
+When downloading everything from the github repository, the folder structure is already created. The folder 'Pipeline' contains the source code. The best thing is to open the project in IntelliJ. But we also provided a jar file. In order to run the program in IntelliJ, create a run configuration for 'MainClass' and define the following arguments:
+
+<working dir path> <threshold for genes> <threshold for proteins>
+
+working dir path: path of the program folder e.g. path/CNBM
+threshold for genes: threshold of the Pearson correlation for the gene expression networks
+threshold for proteins: threshold of the Pearson correlation for the protein networks
+
+OUTPUT:
+
+As a result the user get the following main output:
+
+/Output/Regression/RegressionOut.txt [predicted cancer stages for the patients of interest from the MLR, the prediction error and the details of the model]
+/Output/SVM/SVMOut.txt 		     [predicted cancer stages for the patients of interest from the SVM and the prediction error]
+/Output/GeneExpression/*.txt	     [three biggest modules of the gene expression network based on Pearson correlation]
+/Output/GeneExpression/Partial/*.txt	     [three biggest modules of the gene expression network based on Patial correlation]
+/Output/Protein/*.txt			[three biggest modules of the protein network based on Pearson correlation]
+/Output/Protein/Partial/*.txt			[three biggest modules of the protein network based on Pearson correlation]
